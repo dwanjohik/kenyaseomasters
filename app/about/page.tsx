@@ -28,7 +28,7 @@ export default function About() {
             About Kenya SEO Masters
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            We are Kenya&apos;s most trusted SEO company — a team of digital strategists, expert web developers, and content specialists dedicated to growing Kenyan businesses online.
+            We are Kenya&apos;s most trusted SEO company a team of digital strategists, expert web developers, and content specialists dedicated to growing Kenyan businesses online.
           </p>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default function About() {
           <div className="relative">
             <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&h=1000&fit=crop"
+                src="Kenya Master SEO CEO.jpg"
                 alt="Founder of Kenya SEO Masters – leading SEO company Kenya"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -58,10 +58,10 @@ export default function About() {
               Kenya&apos;s Premier SEO Company, Founded on Results
             </h2>
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Kenya SEO Masters was founded with a single mission: to provide Kenyan businesses with the same calibre of <strong>search engine optimization</strong> that international brands enjoy — at fair, transparent pricing that makes sense for the local market. Our lead strategist brings over <strong>7 years of Kenya SEO</strong> experience across industries including real estate, hospitality, e-commerce, fintech, and healthcare.
+              Kenya SEO Masters was founded with a single mission to provide Kenyan businesses with the same calibre of <strong>search engine optimization</strong> that international brands enjoy at fair, transparent pricing that makes sense for the local market. Our lead strategist brings over <strong>7 years of Kenya SEO</strong> experience across industries including real estate, hospitality, e-commerce, fintech, and healthcare.
             </p>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              We built this agency because we saw too many Kenyan businesses paying for SEO and getting nothing in return — vague reports, no rankings, and excuses. We do things differently: every campaign is tied to measurable outcomes, every strategy is explained in plain language, and every client owns everything we build for them.
+              We built this agency because we saw too many Kenyan businesses paying for SEO and getting nothing in return vague reports, no rankings, and excuses. We do things differently, every campaign is tied to measurable outcomes, every strategy is explained in plain language, and every client owns everything we build for them.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -112,7 +112,7 @@ export default function About() {
               {
                 icon: Target,
                 title: "Data-Driven Precision",
-                desc: "Every Kenya SEO decision we make is backed by data — keyword research, competitor analysis, and performance metrics — never gut feeling.",
+                desc: "Every Kenya SEO decision we make is backed by data; keyword research, competitor analysis, and performance metrics and are never gut feeling.",
               },
               {
                 icon: Users,

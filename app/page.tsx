@@ -84,11 +84,11 @@ export default function Home() {
                 Why Kenyan Businesses Need Professional SEO in Kenya
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                The Kenyan digital market is expanding rapidly. Millions of Kenyans search Google every day for products and services — yet most local business websites never appear on page one. Without a dedicated{" "}
+                The Kenyan digital market is expanding rapidly. Millions of Kenyans search Google every day for products and services yet most local business websites never appear on page one. Without a dedicated{" "}
                 <strong>SEO company in Kenya</strong>, you are invisible to your best customers.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                At Kenya SEO Masters, we specialize in <strong>SEO in Kenya</strong> — combining local market knowledge with internationally proven techniques to help your business dominate search results in Nairobi, Mombasa, Kisumu, and across the country.
+                At Kenya SEO Masters, we specialize in <strong>SEO in Kenya</strong> combining local market knowledge with internationally proven techniques to help your business dominate search results in Nairobi, Mombasa, Kisumu, and across the country.
               </p>
               <div className="grid grid-cols-2 gap-6 pt-4">
                 <div className="p-4 bg-background rounded-xl shadow-sm border border-border/50">
@@ -136,7 +136,7 @@ export default function Home() {
               What We Do as a Leading SEO Company in Kenya
             </h2>
             <p className="text-lg text-muted-foreground">
-              From search engine optimization to web design in Kenya — we are the full-service digital agency Kenyan businesses trust.
+              From search engine optimization to web design in Kenya we are the full-service digital agency Kenyan businesses trust.
             </p>
           </div>
 
@@ -147,7 +147,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold font-display mb-3">Search Engine Optimization Kenya</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                Comprehensive <strong>Kenya SEO</strong> — keyword research, on-page optimization, technical audits, and high-authority link building that moves your site to page one and keeps it there.
+                Broad <strong>Kenyan SEO</strong>; keyword research, on-page optimization, technical audits, and high-authority link building that moves your site to page one and keeps it there.
               </p>
               <Link href="/services" className="text-primary font-semibold hover:underline flex items-center">
                 View SEO Packages <ArrowRight className="w-4 h-4 ml-1" />
@@ -173,7 +173,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold font-display mb-3">Content &amp; Digital Marketing</h3>
               <p className="text-muted-foreground leading-relaxed mb-6">
-                SEO-driven content strategies — blog articles, landing pages, and link building — that cement your authority in the Kenyan market and drive sustainable organic traffic.
+                SEO-driven content strategies; blog articles, landing pages, and link building that cement your authority in the Kenyan market and drive sustainable organic traffic.
               </p>
               <Link href="/services" className="text-primary font-semibold hover:underline flex items-center">
                 Learn More <ArrowRight className="w-4 h-4 ml-1" />
@@ -191,7 +191,7 @@ export default function Home() {
               Transparent Kenya SEO Pricing
             </h2>
             <p className="text-lg text-muted-foreground">
-              Flexible packages for every stage of growth — no hidden fees, no long-term lock-ins.
+              Flexible packages for every stage of growth, no hidden fees, no long-term lock-ins.
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
@@ -253,12 +253,12 @@ export default function Home() {
         <div className="container max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <h2 className="font-display font-bold text-3xl md:text-4xl text-foreground">
-              Understanding SEO in Kenya: A Complete 2025 Guide
+              Search Engine Optimization in Kenya
             </h2>
 
             <h3 className="text-2xl font-bold text-primary mt-8">What is SEO and Why Does it Matter for Kenyan Businesses?</h3>
             <p className="text-muted-foreground">
-              <strong>Search engine optimization (SEO)</strong> is the process of improving your website so it ranks higher in Google search results. For businesses across Kenya, good <strong>SEO in Kenya</strong> means appearing on page one when potential customers search for your products or services. Unlike paid advertising, organic rankings from SEO continue generating traffic and leads long after the initial work is done — making it the highest-ROI digital marketing investment available to Kenyan businesses.
+              <strong>Search engine optimization (SEO)</strong> is the process of improving your website so it ranks higher in Google search results. For businesses across Kenya, good <strong>SEO in Kenya</strong> means appearing on page one when potential customers search for your products or services. Unlike paid advertising, organic rankings from SEO continue generating traffic and leads long after the initial work is done, making it the highest-ROI digital marketing investment available to Kenyan businesses.
             </p>
 
             <h3 className="text-2xl font-bold text-primary mt-8">What Do SEO Companies in Kenya Actually Do?</h3>
@@ -268,12 +268,12 @@ export default function Home() {
 
             <h3 className="text-2xl font-bold text-primary mt-8">Kenya SEO vs. Generic SEO: Why Local Expertise Matters</h3>
             <p className="text-muted-foreground">
-              <strong>Kenya SEO</strong> is not the same as running a generic global SEO campaign. The Kenyan market has unique search behaviors, competitive landscapes, and local intent signals that require deep local understanding. For example, searches like "SEO company Kenya" or "web designers Kenya" have very different competitive profiles than their equivalents in Europe or North America. Our team lives and works in Kenya — we know what Kenyan searchers want, what Kenyan Google results look like, and how to beat your local competitors on the SERPs that matter to your business.
+              <strong>Kenya SEO</strong> is not the same as running a generic global SEO campaign. The Kenyan market has unique search behaviors, competitive landscapes, and local intent signals that require deep local understanding. For example, searches like "SEO company Kenya" or "web designers Kenya" have very different competitive profiles than their equivalents in Europe or North America. Our team lives and works in Kenya we know what Kenyan searchers want, what Kenyan Google results look like, and how to beat your local competitors on the SERPs that matter to your business.
             </p>
 
             <h3 className="text-2xl font-bold text-primary mt-8">How Long Does Kenya SEO Take to Deliver Results?</h3>
             <p className="text-muted-foreground">
-              Most <strong>Kenya SEO</strong> campaigns begin showing meaningful improvement in 3–6 months. Technical fixes and on-page optimization often produce quick gains within the first 30–60 days, while link building and content authority compounds over time. The key advantage of SEO over pay-per-click advertising: your rankings and traffic continue growing even when you are not actively spending — delivering compounding returns on your investment for years.
+              Most <strong>Kenya SEO</strong> campaigns begin showing meaningful improvement in 3–6 months. Technical fixes and on-page optimization often produce quick gains within the first 30–60 days, while link building and content authority compounds over time. The key advantage of SEO over pay-per-click advertising: your rankings and traffic continue growing even when you are not actively spending delivering compounding returns on your investment for years.
             </p>
           </div>
         </div>
@@ -297,7 +297,7 @@ export default function Home() {
               },
               {
                 q: "Can you guarantee #1 rankings on Google?",
-                a: "No ethical SEO company in Kenya can guarantee specific rankings — Google's algorithm is constantly evolving. We guarantee proven best practices, full transparency, and a track record of significant ranking improvements.",
+                a: "No ethical SEO company in Kenya can guarantee specific rankings Google's algorithm is constantly evolving. We guarantee proven best practices, full transparency, and a track record of significant ranking improvements.",
               },
               {
                 q: "Do I need SEO every month or is it a one-time service?",

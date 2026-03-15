@@ -30,7 +30,7 @@ export function HeroAnimated() {
               Agency
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-10 leading-relaxed max-w-3xl mx-auto">
-              We help Kenyan businesses rank higher on Google with expert search engine optimization and stunning website design — turning clicks into loyal customers.
+              We help Kenyan businesses rank higher on Google with expert search engine optimization and proper website design to turning clicks into loyal customers.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

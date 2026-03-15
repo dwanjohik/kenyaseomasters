@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { z } from 'zod';
+import nodemailer from 'nodemailer';
 
-// Self-contained schema — no external DB or @shared dependency required
 const inquirySchema = z.object({
   name: z.string().min(2),
   email: z.string().email(),
@@ -16,14 +16,29 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const input = inquirySchema.parse(body);
 
-    // Log inquiry server-side (replace with your DB/email/CRM integration)
-    console.log('New inquiry received:', {
-      ...input,
-      receivedAt: new Date().toISOString(),
+    const transporter = nodemailer.createTransport({
+      service: 'gmail',
+      auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+      },
     });
 
-    // TODO: Connect your database or email service here
-    // e.g. send to Resend, Nodemailer, Supabase, etc.
+    await transporter.sendMail({
+      from: `"Kenya SEO Masters" <${process.env.EMAIL_USER}>`,
+      to: 'blockenterprisesltd@gmail.com',
+      subject: `New Inquiry from ${input.name} — ${input.serviceInterest}`,
+      html: `
+        <h2>New Website Inquiry</h2>
+        <p><strong>Name:</strong> ${input.name}</p>
+        <p><strong>Email:</strong> ${input.email}</p>
+        <p><strong>Phone:</strong> ${input.phone}</p>
+        <p><strong>Company:</strong> ${input.company || 'N/A'}</p>
+        <p><strong>Service:</strong> ${input.serviceInterest}</p>
+        <p><strong>Message:</strong><br/>${input.message}</p>
+        <p><strong>Received At:</strong> ${new Date().toISOString()}</p>
+      `,
+    });
 
     return NextResponse.json(
       { success: true, message: 'Inquiry received. We will be in touch within 24 hours.' },

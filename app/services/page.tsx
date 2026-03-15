@@ -197,10 +197,10 @@ export default function Services() {
                 Why Choose Kenya SEO Masters as Your SEO Company in Kenya?
               </h3>
               <p className="text-muted-foreground">
-                There are many self-proclaimed <strong>SEO companies in Kenya</strong>, but very few that combine deep technical expertise with genuine local market knowledge. Since our founding, Kenya SEO Masters has helped over 50 businesses — from real estate agencies in Westlands to e-commerce stores serving all of East Africa — achieve and sustain first-page Google rankings.
+                There are many self-proclaimed <strong>SEO companies in Kenya</strong>, but very few that combine deep technical expertise with genuine local market knowledge. Since our founding, Kenya SEO Masters has helped over 50 businesses from real estate agencies in Westlands to e-commerce stores serving all of East Africa  achieve and sustain first-page Google rankings.
               </p>
               <p className="text-muted-foreground">
-                Our approach to <strong>SEO in Kenya</strong> is built on three commitments: transparency (you get full monthly reports showing exactly what we did and what it achieved), ownership (all content and backlinks we build belong to you, forever), and results (we track rankings, organic traffic, and leads — not vanity metrics). Whether you need local SEO for a Nairobi business or national <strong>search engine optimization Kenya</strong> for a brand serving the entire country, we have a proven process to get you there.
+                Our approach to <strong>SEO in Kenya</strong> is built on three commitments: transparency (you get full monthly reports showing exactly what we did and what it achieved), ownership (all content and backlinks we build belong to you, forever), and results (we track rankings, organic traffic, and leads are not vanity metrics). Whether you need local SEO for a Nairobi business or national <strong>search engine optimization Kenya</strong> for a brand serving the entire country, we have a proven process to get you there.
               </p>
             </div>
           </div>

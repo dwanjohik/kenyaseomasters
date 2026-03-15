@@ -1,41 +1,33 @@
 import { useMutation } from "@tanstack/react-query";
-import { api, type InsertInquiry } from "@shared/routes";
 import { useToast } from "@/hooks/use-toast";
+
+interface InsertInquiry {
+  name: string;
+  email: string;
+  phone: string;
+  company?: string;
+  serviceInterest: "seo" | "web_design" | "hosting" | "audit" | "digital_marketing";
+  message: string;
+}
 
 export function useCreateInquiry() {
   const { toast } = useToast();
 
   return useMutation({
     mutationFn: async (data: InsertInquiry) => {
-      // Validate with Zod before sending
-      const validated = api.inquiries.create.input.parse(data);
-
-      const res = await fetch(api.inquiries.create.path, {
-        method: api.inquiries.create.method,
+      const res = await fetch("/api/inquiries", {
+        method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(validated),
+        body: JSON.stringify(data),
       });
-
-      if (!res.ok) {
-        const error = await res.json();
-        throw new Error(error.message || "Failed to submit inquiry");
-      }
-
+      if (!res.ok) throw new Error("Failed to submit");
       return res.json();
     },
     onSuccess: () => {
-      toast({
-        title: "Inquiry Sent!",
-        description: "We'll be in touch with you shortly to discuss your project.",
-        variant: "default",
-      });
+      toast({ title: "Inquiry sent!", description: "We'll get back to you within 24 hours." });
     },
-    onError: (error) => {
-      toast({
-        title: "Error",
-        description: error.message,
-        variant: "destructive",
-      });
+    onError: () => {
+      toast({ title: "Error", description: "Something went wrong. Please try again.", variant: "destructive" });
     },
   });
 }

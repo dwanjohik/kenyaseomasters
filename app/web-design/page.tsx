@@ -100,7 +100,7 @@ export default function WebDesign() {
             </div>
             <h3 className="text-2xl font-display font-bold">Fast Kenya Web Hosting</h3>
             <p className="text-muted-foreground leading-relaxed">
-              Page speed is a Google ranking factor. Our hosting solutions offer 99.9% uptime, daily backups, and lightning-fast response times — keeping both Google and your Kenyan visitors happy.
+              Page speed is a Google ranking factor. Our hosting solutions offer 99.9% uptime, daily backups, and lightning-fast response times keeping both Google and your Kenyan visitors happy.
             </p>
           </div>
         </div>
@@ -126,7 +126,7 @@ export default function WebDesign() {
                 Why Choose Our Web Designers in Kenya?
               </h2>
               <p className="text-muted-foreground leading-relaxed">
-                Many <strong>website designers in Kenya</strong> offer cheap sites that look good but rank nowhere. We are different — our <strong>web design in Kenya</strong> process begins with an SEO strategy, ensuring every page is built to attract organic traffic from day one.
+                Many <strong>website designers in Kenya</strong> offer cheap sites that look good but rank nowhere. We are different our <strong>web design in Kenya</strong> process begins with an SEO strategy, ensuring every page is built to attract organic traffic from day one.
               </p>
               <ul className="space-y-4">
                 {[
@@ -167,7 +167,7 @@ export default function WebDesign() {
               What Makes a Good Website in Kenya?
             </h3>
             <p className="text-muted-foreground">
-              The best websites built by <strong>web designers Kenya</strong> share several characteristics: they load in under 3 seconds on mobile (critical for Kenya's predominantly mobile internet users), they are secured with HTTPS, they have clear calls-to-action on every page, and they are structured to rank on Google for relevant Kenyan search terms. A beautiful site that no one finds is worthless — which is why our <strong>Kenya website developers</strong> build SEO into every project from the very beginning.
+              The best websites built by <strong>web designers Kenya</strong> share several characteristics: they load in under 3 seconds on mobile (critical for Kenya's predominantly mobile internet users), they are secured with HTTPS, they have clear calls-to-action on every page, and they are structured to rank on Google for relevant Kenyan search terms. A beautiful site that no one finds is worthless which is why our <strong>Kenya website developers</strong> build SEO into every project from the very beginning.
             </p>
 
             <h3 className="text-2xl font-bold text-primary mt-8">

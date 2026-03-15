@@ -29,7 +29,7 @@ export default function Contact() {
             Contact Kenya&apos;s Top SEO Company
           </h1>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            Ready to rank higher? Get your free website SEO audit and a custom Kenya SEO strategy — no obligations, no jargon.
+            Ready to rank higher? Get your free website SEO audit and a custom Kenya SEO strategy no obligations, no jargon.
           </p>
         </div>
       </div>
@@ -40,7 +40,7 @@ export default function Contact() {
             <div>
               <h2 className="text-3xl font-display font-bold mb-6">Get In Touch</h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Whether you need a full Kenya SEO strategy, a new website, or just want to ask about pricing — our team is ready to help. We respond to all enquiries within 24 hours on business days.
+                Whether you need a full Kenya SEO strategy, a new website, or just want to ask about pricing our team is ready to help. We respond to all enquiries within 24 hours on business days.
               </p>
             </div>
 
@@ -64,7 +64,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Phone</h4>
-                  <p className="text-muted-foreground">+254 700 000 000</p>
+                  <p className="text-muted-foreground">+254 705 227 427</p>
                   <p className="text-sm text-muted-foreground mt-1">Mon – Fri, 8am to 6pm EAT</p>
                 </div>
               </div>
@@ -75,7 +75,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-lg mb-1">Email</h4>
-                  <p className="text-muted-foreground">info@kenyaseomasters.com</p>
+                  <p className="text-muted-foreground">blockenterprisesltd@gmail.com</p>
                 </div>
               </div>
             </div>
